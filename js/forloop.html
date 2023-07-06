@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+        var num =[2,3,5,7,9,10,12,15,18,20,23,25,26,28,30];
+        
+        for(var i=0;i<num.length;i++){
+            document.write(num[i]+",");
+        }
+        document.write("<br>");
+        // print number greater then or equall to 18
+        for(var i=0;i<num.length;i++){
+           if(num[i]>=18){
+            document.write(num[i]+",");
+           }
+        }
+        document.write("<br>");
+        // print number from array who is lessthan or equall to 12
+        for(var i=0;i<num.length;i++){
+           if(num[i]<= 12){
+            document.write(num[i]+",");
+           }
+        }
+        document.write("<br>");
+        // print number from array which is even number
+        for(var i=0;i<num.length;i++){
+           if(num[i]%2===0){
+            document.write(num[i]+",");
+           }
+        }
+        document.write("<br>");
+        // print even number from array which is > 18 number
+        for(var i=0;i<num.length;i++){
+           if(num[i]%2==0 && num[i] >=18){
+            document.write(num[i]+",");
+           }
+        }
+        document.write("<br>");
+        // use of "for of": it retun array value
+        for(let n of num){
+            document.write(n+",");
+        }
+        document.write("<br>");
+         // use of "for in": it retun array index
+         for(let n in num){
+            document.write(n+",");
+        }
+    </script>
+</body>
+</html>

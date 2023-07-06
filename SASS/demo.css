@@ -1,0 +1,19 @@
+div {
+  border: 3px ridge yellow;
+  height: 300px;
+  width: 400px;
+  overflow: auto;
+}
+
+p, para {
+  text-align: justify;
+  color: yellow;
+  background-color: rgb(9, 10, 40);
+}
+
+.box1 {
+  border: 5px ridge green;
+  height: 300px;
+  width: 400px;
+  overflow: auto;
+}/*# sourceMappingURL=demo.css.map */

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+    </style>
+</head>
+<body>
+   
+<!-- <h1></h1> -->
+    <script>
+     var msg = "Welcome You All In Hematite Pune , You All Are Hematite Pune Star.";
+     document.write(msg,"<br>");
+     var replaceData =  msg.replace("Pune","Mumbai");
+     document.write(replaceData,"<br>");
+     var replaceAllData = msg.replaceAll("Pune","Mumbai")
+     document.write(replaceAllData,"<br>");
+
+     var newData = msg.replace(/pune/i,"Nagpur");
+     document.write(newData,"<br>");
+
+     var newData1 = msg.replace(/pune/ig,"Nagpur");
+     document.write(newData1,"<br>");
+
+     var newData2 = msg.replaceAll("Pune","Nagpur");
+     document.write(newData2,"<br>");
+
+    //  use of charAt(): it return letter availabe in index number
+     document.write(msg.charAt(5),"<br>");
+
+     //  use of charCodeAt(): it will retutn ASCII code of letter 
+     document.write(msg.charCodeAt(0),"<br>");
+
+     var myName = "Panchashil";
+     console.log(myName);
+     console.log(myName.split());
+
+     
+ 
+
+
+    </script>
+</body>
+</html>

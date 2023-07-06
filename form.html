@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form><h3>Registration form</h3>
+        <div>
+            <label>First_Name:</label>
+            <input type="text" name="Fname" id="fname" placeholder="Enter First Name" pattern="[a-zA-Z]{2,20}" required>
+        </div>
+        <br>
+        <div>
+            <label>Last_Name:</label>
+            <input type="text" name="Lname" id="lname" placeholder="Enter Last Name" pattern="[a-zA-Z]{2,20}" required>
+        </div>
+        <br>
+        <div>
+            <label>Contact:</label>
+            <input type="tel" name="Contact" id="Cnt" placeholder="Enter contact Number" pattern="{0,9}" required>
+        </div>
+        <br>
+        <div>
+            <label>Email:</label>
+            <input type="text" name="email" id="email" placeholder="Enter email" required>
+        </div>
+        <br>
+        <div>
+            <label>Date of Birth:</label>
+            <input type="date" name="DOB" id="dob" required>
+        </div>
+        <br>
+        <div>
+            <label>Gender:</label>
+            <input type="radio" name="gender" id="g1">Male
+            <input type="radio" name="gender" id="g2">Female
+            <input type="radio" name="gender" id="g3">Others
+        </div>
+        <br>
+        <div>
+            <label>Qualification:</label>
+            <input type="checkbox" name="quali" id="q1">SSC
+            <input type="checkbox" name="quali" id="q2">HSC
+            <input type="checkbox" name="quali" id="q3">UG
+            <input type="checkbox" name="quali" id="q4">PG
+        </div>
+        <br>
+        <div>
+            <label>Address:</label>
+            <textarea name="address" id="ads" cols="30" rows="2" placeholder="Enter Address"></textarea>
+        </div>
+        <br>
+        <div>
+            <label>City:</label>
+            <select name="city" id="ct" required>
+                <option value="">Select</option>
+                <option value="Satara">Satara</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Pune">Pune</option>
+                <option value="Nagpur">Nagpur</option>
+                <option value="Nashik">Nashik</option>
+                <option value="Sangli">Sangli</option>
+                <option value="Karad">Karad</option>
+                <option value="Latur">Latur</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label>Password:</label>
+            <input type="password" name="password" id="pwd" required>
+        </div>
+        <br>
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+        <div>
+            <label>Date & Time</label>
+            <input type="datetime-local" name="date" id="dnt" placeholder="Enter Date n Time">
+        </div>
+        <br>
+        <div>
+            <label>Upload the File:</label>
+            <input type="file" name="file" id="file">
+        </div>
+        <br>
+        <div>
+            <label>Range</label>
+            <input type="range" name="range" id="rng">
+        </div>
+        <div>
+            <label>Search here</label>
+            <input type="search" name="search" id="sea">
+        </div>
+        <br>
+        <div>
+            <label>ENter Links:</label>
+            <input type="url" name="link" id="url">
+        </div>
+        <br>
+        <div>
+            <label>TIme:</label>
+            <input type="time" name="time" id="t">
+        </div>
+        <br>
+        <div>
+        <label>Hidden:</label>
+        <input type="hidden" name="hide" id="hd">
+        </div>
+        <div>
+            <label>Image</label>
+            <input type="image" src="./images/cat5.jpg" alt="cat">
+        </div>
+        <br>
+        <div>
+            <label>Week</label>
+            <input type="week" name="wee" id="we">
+        </div>
+        <br>
+        <div>
+            <label>Month</label>
+            <input type="month" name="month" id="mnt">
+        </div>
+        <br>
+        <div>
+            <label>Color</label>
+            <input type="color" name="color" id="clr">
+        </div>
+    </form>
+
+</body>
+</html>

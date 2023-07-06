@@ -1,0 +1,30 @@
+.head{
+    border: 60px solid blue;
+    width: 50%;
+    border-image: url(./images/cat6.jpg) 125 repeat;
+}
+
+.para{
+    border: 2px;
+    border-top: solid red;
+    border-right: dotted yellowgreen;
+    border-bottom: dashed blue;
+    border-left: double gray;
+    border-radius: 5px;
+    margin: 25px;
+    padding: 40px;
+}
+
+.txt{
+    font-family:'Courier New', Courier, monospace;
+    font-size: xx-large;
+    font-style: normal;
+    font-weight: bolder;
+}
+.wrapper{
+    background-image: url(./images/cat8.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 300px;
+}

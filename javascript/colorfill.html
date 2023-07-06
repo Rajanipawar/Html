@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colorfill in the box in JS</title>
+    <style>
+        .flexbox{
+            display: flex;
+            justify-content: space-around;
+        }
+        .container{
+            box-shadow: 1px 1px 10px 4px gray;
+            width: 400px;
+            height: 450px;
+            text-align: center;
+            padding: 20px;
+            border-radius: 20px;
+        }
+        .container1{
+            box-shadow: 1px 1px 10px 4px gray;
+            width: 400px;
+            height: 450px;
+            text-align: center;
+            padding: 20px;
+            border-radius: 20px;
+        }
+        .container1 div{
+            margin-top: 20px;
+        }
+        .box{
+            border: 3px solid yellow;
+            width: 300px;
+            height: 300px;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <!-- Colorfill -->
+    <div class="flexbox">
+        <div class="container">
+            <div id="bx" class="box">
+                <p id="txt">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam optio minus quis debitis porro hic, maiores dolores facilis neque, nesciunt doloremque autem! Laborum harum quidem dignissimos minima corporis alias voluptate?
+                </p>
+            </div>
+            <label>Background_color</label>
+            <input type="color" name="color" id="clr1"><br>
+            <label>Text_Color</label>
+            <input type="color" name="color" id="clr2">
+            <br><br>
+            <button type="button" onclick="colorfill()">Fill</button>
+        </div>
+
+        <!-- Arithmetic Operation -->
+        <div class="container1">
+            <div>
+                <label>Value1:</label>
+                <input type="number" name="value" id="val1">
+            </div>
+            <div>
+                <label>Value2:</label>
+                <input type="number" name="value" id="val2">
+            </div>
+            <div>
+                <label>Operator:</label>
+                <select name="operator" id="optr">
+                    <option value="">Select</option>
+                    <option value="+">+</option>
+                    <option value="-">-</option>
+                    <option value="*">*</option>
+                    <option value="/">/</option>
+                    <option value="%">%</option>
+                    <option value="**">**</option>
+                </select>
+            </div>
+            <div>
+                <button type="button" onclick="calculate()">Calculate</button>
+            </div>
+            <div>
+                <p>Result: <span id="res"></span></p>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./colorfill.js"></script>
+</html>

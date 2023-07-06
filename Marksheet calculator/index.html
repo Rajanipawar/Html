@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marksheet</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <h1>Marksheet</h1>
+                <div>
+                    <label>Physics:</label>
+                    <input type="text" name="physics" id="phy">        
+                </div>
+                <br>
+                <div>
+                    <label>Chemisty:</label>
+                    <input type="text" name="chemistry" id="chem">
+                </div>
+                <br>
+                <div>
+                    <label>Maths:</label>
+                    <input type="text" name="maths" id="math">
+                </div>
+                <br>
+                <div class="btn">
+                    <button type="button" id="bn" onclick="total()">Total</button>
+                    <p>Total: <span id="btn1"></span></p>
+                </div>
+                <div>
+                    <!-- <button type="button" id="grades" onclick="percentage()">Grade: </button> -->
+                    <p>Grade: <span id="grd"></span></p>
+                </div>
+        </div>
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>

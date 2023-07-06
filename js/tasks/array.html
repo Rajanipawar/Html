@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <script>
+         var array = [2, 3, 5, 7, 9, 10, 12, 15, 18, 20, 23, 25, 26, 28, 30];
+        for (var i = 0; i < array.length; i++) {
+                document.write(array[i]+" ");
+            }
+        document.write("<br>")
+
+         var array = [2, 3, 5, 7, 9, 10, 12, 15, 18, 20, 23, 25, 26, 28, 30];
+        for (var i = 0; i < array.length; i++) {
+            if (array[i]>=18){
+                document.write(array[i]+" ");
+            }
+        }
+        document.write("<br>")
+
+        var array = [2, 3, 5, 7, 9, 10, 12, 15, 18, 20, 23, 25, 26, 28, 30];
+        for (var i = 0; i < array.length; i++) {
+            if (array[i]<=12){
+                document.write(array[i]+" ");
+            }
+        }
+
+        document.write("<br>")
+
+        var array = [2, 3, 5, 7, 9, 10, 12, 15, 18, 20, 23, 25, 26, 28, 30];
+        for (var i = 0; i < array.length; i++) {
+            if (array[i]%2==0){
+                document.write(array[i]+" ");
+            }
+        }
+        document.write("<br>")
+
+        var array = [2, 3, 5, 7, 9, 10, 12, 15, 18, 20, 23, 25, 26, 28, 30];
+        for (var i = 0; i < array.length; i++) {
+            if (array[i]%2==0 && array[i]>=18){
+                document.write(array[i]+" ");
+            }
+        }
+
+        document.write("<br>")
+// use of "for in" method: it return array index
+        var array = [2, 3, 5, 7, 9, 10, 12, 15, 18, 20, 23, 25, 26, 28, 30];
+        for (let n in array) {
+                document.write(n+" ");
+            }
+
+        document.write("<br>")
+// use of "for of" method:it return array value
+        var array = [2, 3, 5, 7, 9, 10, 12, 15, 18, 20, 23, 25, 26, 28, 30];
+        for (let n of array) {
+                document.write(n+" ");
+        }
+
+
+    </script>
+</body>
+
+</html>

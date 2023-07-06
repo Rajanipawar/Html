@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <input type="text" name="fnum" id="fnum" placeholder="enter first number"> <br>
+        <input type="text" name="snum" id="snum" placeholder="enter second number"> <br>
+        <button type="button" onclick="addition()">add</button>
+        <button type="button" onclick="subtraction()">sub</button>
+        <button type="button" onclick="division()">div</button>
+        <button type="button" onclick="multiplication()">mul</button> <br>
+
+        <p>Result: <strong id="res"></strong></p>
+    </form>
+
+    <script>
+        function addition(){
+            var n1 = document.getElementById("fnum").value; 
+            var n2 = document.getElementById("snum").value;
+            document.getElementById("res").innerHTML = Number(n1)+Number(n2);
+        }
+        function subtraction(){
+            var n1 = document.getElementById("fnum").value; 
+            var n2 = document.getElementById("snum").value;
+            document.getElementById("res").innerHTML = Number(n1)-Number(n2);
+        }
+            function division(){
+            var n1 = document.getElementById("fnum").value; 
+            var n2 = document.getElementById("snum").value;
+            document.getElementById("res").innerHTML = Number(n1)/Number(n2);
+            }
+            function multiplication(){
+            var n1 = document.getElementById("fnum").value; 
+            var n2 = document.getElementById("snum").value;
+            document.getElementById("res").innerHTML = Number(n1)*Number(n2);
+        }
+        
+        
+    </script>
+</body>
+</html>

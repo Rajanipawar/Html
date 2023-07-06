@@ -1,0 +1,19 @@
+.nav-wrapper .nav{
+    color: blueviolet;
+}
+
+.nav-wrapper .nav .link{
+    background-color: cadetblue;
+}
+.nav-wrapper>.nav{
+    background-color: bisque;
+}
+.nav +.link{
+    color: chocolate;
+/* div~ul{
+    background-color: yellow;
+} */
+
+div>ul{
+    background-color: violet;
+}

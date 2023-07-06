@@ -1,0 +1,22 @@
+*Wordpress:
+-It is content management system, which allows us to create and manage website easily.
+-There is no need to worry about coding.
+
+*Advantages of Wordpress:
+-No need to write code.
+-Easy to manage.
+-User friendly
+-50% to 60% websites are build by using wordpress.
+-It provide useful plugin.
+-It provides free themes also.
+
+*How to use wordpress-
+-There are two ways ti use wordpress
+1. Creating account online and use it.(For this you must have internet connection)
+
+2. By downloading (For this there is no need of internet)
+-You must have downloaded wordpress file
+-You must have one local server installed(XAMPP or WAMPP)
+
+*Official website for wordpress is wordpress.com
+

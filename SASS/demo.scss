@@ -1,0 +1,56 @@
+$primary_color:rgb(9, 10, 40);
+$text_color: rgb(26, 22, 237);
+$header: green;
+$font: Arial;
+$font_size: 40px;
+$border: 3px ridge pink;
+$aligntext: justify;
+$body_bg: yellow;
+$bwidth: 5px;
+ 
+
+@mixin paragraph(){
+    text-align: $aligntext;
+    color: $body_bg;
+    background-color: $primary_color;
+}
+
+@mixin box($bwidth, $header){
+    border: $bwidth ridge $header;
+    height: 300px;
+    width: 400px;
+    overflow: auto;
+}
+div{
+    @include box(3px, yellow);
+}
+
+p{
+    @include paragraph();
+}
+
+.box1{
+    @include box(5px, green);
+}
+
+para{
+    @extend p;
+}
+
+// .container{
+//     // background-color: $primary_color;
+//     color: $text_color;
+//     font-size: $font_size;
+//     font-family: $font;
+//     border: $border;
+// }
+
+// .head{
+//     border: $border;
+//     color: $header;
+//     margin-top: 50px;
+// }
+
+// body{
+//     background-color: $body_bg;
+// }

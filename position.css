@@ -1,0 +1,72 @@
+/* Position box starts */
+.box{
+    border: 3px solid goldenrod;
+    width: 500px;
+    position: relative;
+    height: 350px;
+    margin: auto;
+    top: 150px;
+}
+.tleft{
+    position: absolute;
+    top: 8px;
+    left: 10px;
+}
+.tright{
+    position: absolute;
+    top: 8px;
+    right: 10px;
+}
+.center{
+    position: absolute;
+    top: 150px;
+    left: 220px
+}
+.bleft{
+    position: absolute;
+    bottom: 8px;
+    left: 10px;
+}
+.bright{
+    position: absolute;
+    right: 10px;
+    bottom: 8px;
+}
+/* Position box ends */
+
+/* Navbar starts */
+.nav{
+    background-color: burlywood;
+    list-style-type: none;
+    height: 50px;
+    margin: 0px;
+}
+.navbar{
+    top: 0px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+
+}
+.nav .list{
+    display: inline-block;
+    padding: 18px 16px;
+}
+.nav .list::after{
+    content:"|";
+}
+.nav .list .link{
+    text-decoration: none;
+    color: black;
+    padding: 18px 16px 16px;
+}
+.nav .list .link:hover{
+    background-color: chartreuse;
+    padding: 15px;
+}
+
+body{
+    margin: 0px;
+}
+
+/* Navbar ends */

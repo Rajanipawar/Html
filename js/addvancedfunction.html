@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+
+    <script>
+        //advanced function 
+        //1.normal function 
+        function greet() {
+            return "Welcome You Shikha";
+        }
+        console.log(greet());
+
+        //2.parameterrize function 
+        function greet2(std1, std2, std3, std4) {
+            return `Welcome You ${std1} ${std2} ${std3} ${std4}`
+        }
+        console.log(greet2("Aakasha ", "Shika ", "Meghana ", "Rajani"));
+
+        //3.anonymous function:function with no name is called anonymous function
+        var mygreet = function () {
+            return "Hello Students";
+        }
+        console.log(mygreet());
+
+        var mygreet123 = function (s1) {
+            return `Hello ${s1}`;
+        }
+        console.log(mygreet123("Aditya"));
+        console.log(mygreet123("Anmol"));
+        //4.arrow function:function with no name and no function keyword 
+        // default arrow function 
+        var add = () => {
+            return 100 + 300;
+        }
+        console.log(add());
+        //parameterize arroe function
+        // var add123 = (n1, n2) => {
+        //     return n1 + n2;
+        // }
+
+        var add123 = (n1, n2) => n1 + n2;
+        console.log(add123(552, 635));
+
+        //5.optional parameterize function : when you  want to keep parameter optional in that case we it it, it always write at end.
+        var fullName = (fname, laname, mname = "") => {
+            return `${fname} ${mname} ${laname}`;
+        }
+        console.log(fullName("Panchashil", "Wankhede"));
+        console.log(fullName("Panchashil", "Wankhede", "M."));
+
+        //6.rest parameterize function: when you we don't how many parameter are required in that situation wee use it. in this we use spread operator
+        var stdist = (...std)=>{
+            return std;
+        }
+        console.log(stdist("Aakasha","Shikha","Rajani","Meghana","Swati"))
+    </script>
+</body>
+
+</html>

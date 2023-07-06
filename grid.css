@@ -1,0 +1,20 @@
+.container{
+    border: 3px ridge green;
+    display: grid;
+    grid-template-columns: 200px 200px auto auto;
+    grid-template-rows: 200px 200px;
+    gap: 20px;
+    /* column-gap: 10px; */
+    /* row-gap: 10px; */
+    justify-content: last baseline;
+}
+
+.items{
+    border: 3px ridge green;
+}
+
+#it1{
+    /* grid-column: 1/span 3; */
+    grid-row: 1/span 3;
+}
+

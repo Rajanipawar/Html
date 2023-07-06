@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        var name = "akansha";
+        if( name=="akansha" || "rajani" || "meghana"){
+            document.write(name+ " is classmate");
+        }else{
+            document.write(name+ " I don't know");
+        }
+        document.write("<br>")
+       
+        var letter = prompt("enter single letter to check it");
+        var data = letter.toLowerCase();
+
+        if(data=='a' || data=='e' || data=='i' || data=='o' || data=='u'){
+            document.write(data+ " is a vowel");
+        }else{
+            document.write(data+ " is not a vowel");
+        }
+        document.write(" <br>==============<br>")
+        var today = "Sun"
+        switch(today){
+            case 'Mon':{
+                document.write("Today is Monday");
+                break;
+            }
+            case 'Tues':{
+                document.write("Today is Tuesday");
+                break;
+            }
+            case 'Wed':{
+                document.write("Today is Wednesday");
+                break;
+            }
+            case 'Sun':{
+                document.write("Today is Sunday");
+                break;
+            }
+            default:{
+                document.write("invalid choice")
+            }
+        }
+    </script>
+</body>
+</html>

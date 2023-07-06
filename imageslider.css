@@ -1,0 +1,30 @@
+body{
+    margin: 100px;  
+}
+.image-wrap{
+    width: 500px;
+    height: 400px;
+    border: 3px solid salmon;
+    padding: 20px;
+}
+
+.image1{
+    width: 501px;
+    height: 325px;
+    float: left;
+    position: absolute;
+}
+
+.image-wrap .image1:hover{
+    top: 55px;
+    width: 450px;
+    height: 270px;
+    ;
+    /* padding: 100px; */
+}
+
+.para1{
+    text-align: justify;
+    display: inline-block;
+    padding-top: 245px;
+}

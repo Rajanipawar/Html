@@ -1,0 +1,10 @@
+#ig{
+    width: 300px;    
+}
+
+.container{
+    text-align: center;
+    border: 2px black ridge;
+    padding: 20px;
+    margin: 150px;
+}

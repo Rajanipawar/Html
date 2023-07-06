@@ -1,0 +1,68 @@
+.forms{
+    border: 3px solid black;
+    margin: 150px 450px ;
+    padding: 35px;
+    width: 400px;
+    padding-left: 45px;
+}
+.head{
+    text-align: center;
+}
+.full{
+    border: 3px solid black;
+}
+
+#q1{
+    border: 1px solid black;
+}
+#q2{
+    border: 5px solid black;
+}
+#q3{
+    border: 1px solid black;
+    margin-left: 97px;
+}
+#q4{
+    border: 1px solid black;
+    margin-left: 10px;
+}
+
+#btn-wrap{
+    text-align: center;
+}
+.btn{
+    border: 3px solid black;
+    border-radius: 9px;
+    padding: 6px 18px;
+}
+#crs{
+    margin-left: 38px;
+}
+
+#fname{
+    margin-left: 20px;
+}
+
+#eml{
+    margin-left: 28px;
+}
+
+#tel{
+    margin-left: 12px;
+}
+
+.wrapper{
+    margin-top: 20px;
+}
+/* .gend{
+    display: block;
+} */
+.gen{
+    display: block;
+    padding: 0px;
+    margin: 0px;
+}
+.gen1{
+    float: right;
+
+}

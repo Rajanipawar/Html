@@ -1,0 +1,112 @@
+8/5/23
+
+Introduction of js: 
+-it is use to add functionality into webpage or webapp 
+-it is loosly typed language.
+-it is scripting language 
+
+*there are two ways to use js 
+1.intrnal js: it this we write script tag in html page  
+2.external js: in this we create a seperate javacript.
+
+Note:- in js window is global onject 
+
+*How to get output in javascript
+1.document.write(); => it will display output at bottom of browser.
+2.window.alert(); => it will display output in popup window.
+3.console.log();=> it will display output in browser console.
+4.DOM(Document Object Model)
+-how to set value 
+-how to get value 
+-how to apply style property.
+
+*what is variable 
+-it is use to store data in it.
+-in in js we can create a variable with var, let,const.
+
+var variableName;
+
+*rules for creating variable
+-variable name can not start with number.
+-it can not be any reserved keyword.
+-variableName can start with alphabet,_ or $ ;
+-variableName start with lowercase letter.
+
+*Why js is called as loosley typed language 
+-when we create a variable in javascript we can not determine what type of data it contain,untill and unless we initialze it. 
+
+*Data types 
+*inbuilt data type 
+1.number: 101,0.5,656265
+2.string: "" or '' 
+3.boolean: true or false 
+4.null: null 
+5.undefine  
+6.symbol: @,$,# 
+
+*user Define data type 
+array:[] -it is use to store multiple values with same datatype
+Object:{}
+
+=============================================================
+*Operators: to perform operation we use Operators 
+1.Arithmatic Operators: +,-,*,/,%(modulus),** 
+2.Assignment Operators(=)
+-whatever value or data we have on right hand side that store in left hand side variable. 
+var myName = "Rajani"
+3.Logical Operators : Logical operator always return boolean value.
+1. AND(&&),OR(||) ,NOT(!)
+
+4.Relational Operator 
+<,<= , > ,>= 
+5.comparision operator 
+1. == : it will check only value not data type and if value are equall then it return true.
+2. === :it will check value as well as its data type and if both are same then an only then it return true.
+
+Note: in js + operator is use to perform two operation 
+    1. to perform addition 
+    2. to perform concationation 
+
+*function :
+-it is block of code which is use to perform specific task.
+-it execute only when we call it.
+-we can reuse it multiple time.
+-In js we have mainly two type of function 
+1.Inbuilt function :  function provide by js to us 
+2.User define function : function create by us 
+
+syntax:  function functionName(){
+    //logical code 
+}
+
+-in user define function we have four types 
+1.function with no parameter and no return type (default function)
+2.function with parameter and no return type (parameterize function)
+3.function with no parameter and with retun type.
+4.function with parameter and with return type. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
